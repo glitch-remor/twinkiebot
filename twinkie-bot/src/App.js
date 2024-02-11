@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MainPage from './MainPage';
+import SubPage from './SubPage';
 
 function App() {
   return (
